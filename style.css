@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    width: 420px;
+    background-color: bisque;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .circle{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(250, 247, 242);
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(239, 139, 16);
+    box-shadow: 0px 5px 10px rgb(249, 196, 132);
+}
+
+.song-img{
+    width:70%;
+    height: 80%;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgb(249, 196, 132);
+}
+
+.player h1{
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    background-color: rgb(246, 210, 163);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(240, 172, 90);
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0px 5px 10px rgb(249, 196, 132);
+}
+
+.control-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.control-icons div{
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(241, 238, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgb(249, 196, 132);
+    cursor: pointer;
+}
+
+.control-icons div:nth-child(2){
+    transform: scale(1.5);
+    background-color: rgb(239, 178, 113);
+    color: #fff;
+}
+
